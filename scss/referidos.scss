@@ -1,0 +1,57 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "_commons";
+@import "_navbar";
+
+header section #pasos{
+
+	background-color: white;
+
+	h1{
+		@include texto ($grafito, 3rem);
+	}
+
+	section div div article h2{
+		background-color: whitesmoke;
+		color: $grafito;
+		font-size: 2rem;
+	}
+
+	p{
+		background-color: whitesmoke;
+		color: $grafito;
+		font-size: 1rem;
+	}
+}
+
+main #form{
+	background-color: map-get($map:$paleta, $key:'celeste');
+	color: map-get($map:$paleta, $key:'blanco');
+
+	h3{
+		font-size: 3rem;
+	}
+
+	div article form section div div p{
+		font-size: 1.5rem;
+	}
+
+	.btn-shop{
+    	background-color:map-get($map:$paleta, $key:'amarillo');
+
+        &:hover{
+	    	background:linear-gradient(to top, $amarilloClaro, $amarilloFuerte);
+			color: grey;
+			cursor: pointer;
+			transition: all 1.5s;
+        }
+    }
+
+    .btn-rounded{
+    	@extend .btn-shop;
+    	border-radius: 40px;
+    }
+
+
+}
+
+@import "_footer";

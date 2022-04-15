@@ -1,0 +1,104 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "_commons";
+@import "_navbar";
+
+//INTRO
+
+header section h1{
+	@include texto(3rem,$celeste);
+}
+
+#mision_vision{
+	background-color: map-get($map:$paleta, $key:'celeste');
+	color: white;
+
+		h1{
+			@include texto (2rem,$grafito);
+		}
+
+		p{
+			@include texto (1.1rem, $white);
+			line-height: 1.5em;
+		}
+
+		article{
+			padding-right: 1em;
+			padding-left: 1em;
+			padding: 1em;
+		}
+
+}
+
+#pilares1{
+	h2{
+		@include texto (2.8rem, $celeste);
+	}
+
+}
+
+#pilares2{
+
+		h3{
+			font-size: 1.2rem;
+			color: $grafito;
+		}
+
+		p{
+			font-size: 1rem;
+			color: $grafito;
+		}
+
+		.fondo{
+		   background-color: map-get($map:$paleta, $key:'blanco');
+		   color: $grafito;
+		   padding: 2rem 2rem;
+		   box-sizing: border-box;;
+		}
+
+
+}
+
+#confianza{
+	background-color: map-get($map:$paleta, $key:'grafito');
+	color: white;
+
+	h2{
+		@include texto (2.5rem, $white);
+	}
+}
+
+//INICIA FORM
+
+#form{
+	background-color: map-get($map:$paleta, $key:'celeste');
+	color: map-get($map:$paleta, $key:'blanco');
+
+    h3{
+    	color: map-get($map:$paleta, $key:'blanco');
+    	font-size: $TitleMain;
+    	padding-bottom:1.5rem
+    }
+
+    div article img{
+    	padding-top:1.5rem;
+    }
+
+    .btn-shop{
+    	background-color:map-get($map:$paleta, $key:'amarillo');
+
+        &:hover{
+	    	background:linear-gradient(to top, $amarilloClaro, $amarilloFuerte);
+			color: grey;
+			cursor: pointer;
+			transition: all 1.5s;
+        }
+    }
+
+    .btn-rounded{
+    	@extend .btn-shop;
+    	border-radius: 40px;
+    }
+
+}
+
+@import "_footer";

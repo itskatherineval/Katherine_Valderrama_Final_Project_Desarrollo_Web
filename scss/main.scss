@@ -1,0 +1,68 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "_commons";
+@import "_navbar";
+
+//INICIA PRODUCTOS
+
+#productos{
+
+	div h1{
+		@include texto ($TitleIndex, $grafito);
+	}
+
+	div div article h2{
+		@include texto ($TileIndexMain,$grafito);
+	}
+
+	div div article p{
+		line-height: 1rem;
+	}
+
+	.btn-shop{
+		background-color:map-get($map:$paleta, $key:'amarillo');
+	&:hover{
+		background:linear-gradient(to top, $amarilloClaro, $amarilloFuerte);
+		color: grey;
+		cursor: pointer;
+		transition: all 1.5s;
+	}
+	}
+
+}
+
+//INICIA FORM
+
+#form{
+	background-color: map-get($map:$paleta, $key:'celeste');
+	color: map-get($map:$paleta, $key:'blanco');
+
+    h3{
+    	color: map-get($map:$paleta, $key:'blanco');
+    	font-size: $TitleMain;
+    	padding-top:0.4em;
+    	padding-bottom:0.8em;
+    }
+
+    div article img{
+    	padding-top:0.8em;
+    }
+
+    .btn-shop{
+    	background-color:map-get($map:$paleta, $key:'amarillo');
+
+        &:hover{
+	    	background:linear-gradient(to top, $amarilloClaro, $amarilloFuerte);
+			color: grey;
+			cursor: pointer;
+			transition: all 1.5s;
+        }
+    }
+
+    .btn-rounded{
+    	@extend .btn-shop;
+    	border-radius: 40px;
+    }
+
+}
+
+@import "_footer";

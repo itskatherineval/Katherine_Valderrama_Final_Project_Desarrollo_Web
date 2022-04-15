@@ -1,0 +1,114 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "_commons";
+@import "_navbar";
+
+
+header #intro{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	background-color:map-get($map:$paleta, $key:'blanco');
+
+	img{
+		width: 90%;
+		text-align: center;
+		align-items:middle;
+	}
+
+	h1{
+		font-size: 3rem;
+		color: $grafito;
+		padding-top:1.5rem;
+		padding-bottom:1.5rem;
+		text-align: center;
+	}
+
+	p{
+		text-align: center;
+		line-height: 2rem;
+		font-size: $TextHeader;
+	}
+
+	.btn-shop{
+		background-color: map-get($map:$paleta, $key:'amarillo');
+		margin-top: 1.5rem;
+ 
+    }
+
+	.btn-shop:hover{
+		background: linear-gradient(to top, rgba(213, 124, 10, .7), rgba(213, 124, 10, 1.0));
+	    color: grey;
+	    cursor: pointer;
+	    transition: all 1.5s;
+    }
+
+}
+
+#caracteristicas{
+	background-color:$celeste;
+	padding:2rem;
+
+	h2{
+		text-align: center;
+		font-size: 2.6rem;
+		color: white;
+		padding:1.5rem;
+	}
+
+	h3{
+		background-color:white;
+		text-align: center;
+		font-size: 1.5rem;
+	}
+
+	p{
+		color: white;
+		text-align: center;
+		font-size: 1.2rem;
+	}
+}
+
+main h2{
+	font-size: 2.5rem;
+	padding-top:2rem;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+
+#formulario{
+	background-color: map-get($map:$paleta, $key:'celeste');
+	color: map-get($map:$paleta, $key:'blanco');
+
+	    h3{
+	    	color: map-get($map:$paleta, $key:'blanco');
+	    	font-size: $TitleMain;
+	    	padding-bottom:2rem;
+	    }
+
+	    div article iframe{
+	    	padding-top:2rem;
+	    	width: 100%;
+	    }
+
+	    .btn-shop{
+	    	background-color:map-get($map:$paleta, $key:'amarillo');
+
+	        &:hover{
+		    	background:linear-gradient(to top, $amarilloClaro, $amarilloFuerte);
+				color: grey;
+				cursor: pointer;
+				transition: all 1.5s;
+	        }
+    }
+
+		    .btn-rounded{
+		    	@extend .btn-shop;
+		    	border-radius: 40px;
+		    }
+
+}
+
+@import "_footer";

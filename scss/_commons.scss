@@ -1,0 +1,57 @@
+//DEFINICION VARIABLES
+
+//Colores
+
+$grafito:#302C27;
+$celeste:#86A1A8;
+$amarillo: #d57c0a;
+$white:white;
+$Footer: whitesmoke;
+
+//Paleta
+
+$paleta: (
+  'grafito':#302C27,
+  'celeste':#86A1A8,
+  'amarillo': #d57c0a,
+  'blanco': white,
+  'grisclaro': whitesmoke,);
+
+//BOTON ANIMACION
+$amarilloClaro:rgba(213, 124, 10, .7);
+$amarilloFuerte: rgba(213, 124, 10, 1.0);
+
+
+
+//mixing
+
+@mixin texto ($font-size,$color){
+  font-size: $font-size;
+  color: $color;
+  padding-top:0.5em;
+}
+
+//TIPOGRAFIA
+
+$MainFont: arial,sans-serif;
+
+
+//TAMAÑO DE TÍTULOS
+
+
+$TitleIndex:2.6em;
+$TileIndexMain:1.9em;
+$TitleHeader:3em;
+$TitleMain:2.6em;
+$TitleForm:2em;
+
+
+//TAMAÑO DE TEXTOS
+
+$TextNav:1.2em;
+$TextHeader:1.1em;
+$TextMain:1.1em;
+$TextForm:1.2em;
+
+
+
