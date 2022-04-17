@@ -7921,24 +7921,30 @@ main section div div article a.btn-shop {
   border-radius: 1em;
   margin-bottom: 1em; }
 
-@media only screen and (min-width: 520px) {
+@media only screen and (min-width: 519px) {
   .tituloForm {
     color: white;
     font-size: 2.2rem;
     text-align: center;
-    padding-bottom: 0.2em;
-    padding-top: 0.4em; } }
+    padding-bottom: 0em;
+    padding-top: 0.4em; }
+  .imgEstilo {
+    margin-top: 2em; } }
 
 @media only screen and (min-width: 768px) {
-  .imgEstilo {
-    margin-top: 1em; }
+  .tituloForm {
+    color: white;
+    font-size: 2.8rem;
+    text-align: center;
+    padding-bottom: 0.4em;
+    padding-top: 0.4em; }
   .subtituloForm {
     padding-top: 0.5em;
-    padding-bottom: 0.5em; } }
+    padding-bottom: 0.5em; }
+  .imgEstilo {
+    margin-top: 3.5em; } }
 
 @media only screen and (min-width: 1200px) {
-  .imgEstilo {
-    margin-top: 3.5em; }
   .subtituloForm {
     padding-top: 0em;
     padding-bottom: 0.2em; } }
@@ -7961,9 +7967,9 @@ main section div article form section button.btn-shop {
       text-decoration: underline;
       color: #302C27; }
 
-@media only screen and (min-width: 520px) {
+@media only screen and (min-width: 519px) {
   main section div h1, main section div .h1 {
-    font-size: 2.2rem; }
+    font-size: 2.1rem; }
   header div div div .carousel-caption p {
     font-size: 1.5rem; }
   header div div div .carousel-caption img {

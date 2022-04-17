@@ -7928,6 +7928,14 @@ main .confianza {
   border-radius: 1em;
   margin-bottom: 1em; }
 
+@media only screen and (min-width: 520px) {
+  .tituloForm {
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-bottom: 0.2em;
+    padding-top: 0.4em; } }
+
 @media only screen and (min-width: 768px) {
   .imgEstilo {
     margin-top: 1em; }
