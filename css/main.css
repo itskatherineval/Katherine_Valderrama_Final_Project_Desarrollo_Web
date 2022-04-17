@@ -7921,7 +7921,7 @@ main section div div article a.btn-shop {
   border-radius: 1em;
   margin-bottom: 1em; }
 
-@media only screen and (min-width: 390px) {
+@media only screen and (min-width: 370px) {
   .tituloForm {
     color: white;
     font-size: 2.2rem;
@@ -7967,13 +7967,13 @@ main section div article form section button.btn-shop {
       text-decoration: underline;
       color: #302C27; }
 
-@media only screen and (min-width: 390px) {
+@media only screen and (min-width: 370px) {
   main section div h1, main section div .h1 {
-    font-size: 2.1rem; }
+    font-size: 2rem; }
   header div div div .carousel-caption p {
-    font-size: 1.5rem; }
+    font-size: 1rem; }
   header div div div .carousel-caption img {
-    width: 40%; } }
+    width: 30%; } }
 
 @media only screen and (min-width: 768px) {
   body header div div div div p {
