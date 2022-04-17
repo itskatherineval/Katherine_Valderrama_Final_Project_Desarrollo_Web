@@ -7980,16 +7980,16 @@ main section div article section button.btn-shop {
     margin-left: 1em;
     margin-right: 1em; }
   body header section p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding-left: 1em;
     padding-right: 1em; }
   body main section p {
     padding-left: 0.7em;
     padding-right: 0.7em; }
   body main .confianza h3, body main .confianza .h3 {
-    font-size: 1.9rem;
-    padding-left: 1em;
-    padding-right: 1em; } }
+    font-size: 2rem;
+    margin-left: 1em;
+    margin-right: 1em; } }
 
 @media only screen and (min-width: 768px) {
   body header section h1, body header section .h1 {
