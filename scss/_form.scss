@@ -22,6 +22,17 @@
 	margin-bottom: 1em;
 }
 
+
+@media only screen and (min-width: 520px){
+	.tituloForm{
+		@include texto(white, 2.2rem, center);
+		padding-bottom: 0.2em;
+		padding-top: 0.4em;
+	}
+
+}
+
+
 @media only screen and (min-width: 768px){
 	.imgEstilo{
 		margin-top: 1em

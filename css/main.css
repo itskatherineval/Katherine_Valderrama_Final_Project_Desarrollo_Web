@@ -7868,8 +7868,6 @@ textarea.form-control-lg {
 
 .carousel-caption {
   text-align: center; }
-  .carousel-caption p {
-    font-size: 2rem; }
 
 main section div h1, main section div .h1 {
   color: #302C27;
@@ -7923,6 +7921,14 @@ main section div div article a.btn-shop {
   border-radius: 1em;
   margin-bottom: 1em; }
 
+@media only screen and (min-width: 520px) {
+  .tituloForm {
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-bottom: 0.2em;
+    padding-top: 0.4em; } }
+
 @media only screen and (min-width: 768px) {
   .imgEstilo {
     margin-top: 1em; }
@@ -7955,17 +7961,33 @@ main section div article form section button.btn-shop {
       text-decoration: underline;
       color: #302C27; }
 
+@media only screen and (min-width: 520px) {
+  main section div h1, main section div .h1 {
+    font-size: 2.2rem; }
+  header div div div .carousel-caption p {
+    font-size: 1.5rem; }
+  header div div div .carousel-caption img {
+    width: 40%; } }
+
 @media only screen and (min-width: 768px) {
   body header div div div div p {
     font-size: 1rem; }
   main section div h1, main section div .h1 {
+    font-size: 2.5rem; }
+  header div div div .carousel-caption img {
+    width: 50%; }
+  header div div div .carousel-caption p {
     font-size: 2.5rem; } }
 
 @media only screen and (min-width: 1200px) {
   body header div div div div p {
     font-size: 2rem; }
   main section div h1, main section div .h1 {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  header div div div .carousel-caption img {
+    width: 50%; }
+  header div div div .carousel-caption p {
+    font-size: 2.5rem; } }
 
 .mainTituloCeleste {
   color: #86A1A8;
