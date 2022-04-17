@@ -7869,23 +7869,11 @@ textarea.form-control-lg {
 header section div div article img {
   width: 90%;
   text-align: center;
-  align-items: middle;
-  margin-right: 2em;
-  margin-left: 2em; }
+  align-items: middle; }
 
 header section div div article h1, header section div div article .h1 {
   padding-top: 0.4em;
   padding-bottom: 0.4em; }
-
-header section div div article p {
-  color: #302C27;
-  font-size: 1.2rem;
-  text-align: center;
-  line-height: 2rem;
-  padding-right: 0.6em;
-  padding-left: 0.6em;
-  margin-right: 1em;
-  margin-left: 1em; }
 
 main .seccionCeleste {
   padding: 2rem; }
@@ -7929,16 +7917,30 @@ main section section div div article p {
   border-radius: 1em;
   margin-bottom: 1em; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 370px) {
+  .tituloForm {
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-bottom: 0em;
+    padding-top: 0.4em; }
   .imgEstilo {
-    margin-top: 1em; }
+    margin-top: 1.5em; } }
+
+@media only screen and (min-width: 768px) {
+  .tituloForm {
+    color: white;
+    font-size: 2.8rem;
+    text-align: center;
+    padding-bottom: 0.4em;
+    padding-top: 0.4em; }
   .subtituloForm {
     padding-top: 0.5em;
-    padding-bottom: 0.5em; } }
+    padding-bottom: 0.5em; }
+  .imgEstilo {
+    margin-top: 3.5em; } }
 
 @media only screen and (min-width: 1200px) {
-  .imgEstilo {
-    margin-top: 3.5em; }
   .subtituloForm {
     padding-top: 0em;
     padding-bottom: 0.2em; } }
@@ -7961,7 +7963,35 @@ main section section div div article section form button.btn-shop {
       text-decoration: underline;
       color: #302C27; }
 
+@media only screen and (min-width: 370px) {
+  header section div div article img {
+    margin-right: 1.2em;
+    margin-left: 1.2em; }
+  header section div div article p {
+    color: #302C27;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5rem;
+    padding-right: 0.3em;
+    padding-left: 0.3em; }
+  main h2, main .h2 {
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; } }
+
 @media only screen and (min-width: 768px) {
+  header section div div article img {
+    margin-left: 2em;
+    margin-right: 2em; }
+  header section div div article p {
+    color: #302C27;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2rem;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    margin-right: 1em;
+    margin-left: 1em; }
   body main h2, body main .h2 {
     color: #302C27;
     font-size: 2rem;
