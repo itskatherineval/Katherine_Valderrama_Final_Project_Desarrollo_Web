@@ -7975,6 +7975,8 @@ main section section div div article section form button.btn-shop {
     padding-right: 0.3em;
     padding-left: 0.3em; }
   main h2, main .h2 {
+    font-size: 2.3rem;
+    color: #86A1A8;
     text-align: center;
     padding-top: 0.5em;
     padding-bottom: 0.5em; } }
@@ -7991,16 +7993,10 @@ main section section div div article section form button.btn-shop {
     padding-right: 0.6em;
     padding-left: 0.6em;
     margin-right: 1em;
-    margin-left: 1em; }
-  body main h2, body main .h2 {
-    color: #302C27;
-    font-size: 2rem;
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem; } }
+    margin-left: 1em; } }
 
 @media only screen and (min-width: 1200px) {
   body main h2, body main .h2 {
-    color: #302C27;
-    font-size: 2.5rem;
+    color: #86A1A8;
+    font-size: 3rem;
     text-align: center; } }

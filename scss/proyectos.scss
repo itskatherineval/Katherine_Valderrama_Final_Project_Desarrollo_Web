@@ -81,6 +81,8 @@ main section section div div article section form button.btn-shop{
 	}
     
     main h2{
+    	font-size: 2.3rem;
+    	color: #86A1A8;
     	text-align: center;
     	padding-top:0.5em;
     	padding-bottom:0.5em;
@@ -107,17 +109,11 @@ main section section div div article section form button.btn-shop{
 		}
 	}
 
-	body main h2{
-		@include texto($grafito, 2rem, center);
-		padding-top:2rem;
-		padding-bottom: 2rem;
-	}
-
 }
 
 @media only screen and (min-width: 1200px){
 	body main h2{
-		@include texto($grafito, 2.5rem, center);
+		@include texto($celeste, 3rem, center);
 	}
 
 }
