@@ -1,13 +1,13 @@
 
 //INICIA NAV
 
-#nav{
+.botonera{
 	background-color:map-get($map:$paleta, $key:'blanco');
 	color:map-get($map:$paleta, $key:'grafito');
-	font-size:$TextNav;
+	font-size:1.2em;
 	position: sticky;
 
-	div a img{
+.w-40{
 		width: 40%;
 	}
 

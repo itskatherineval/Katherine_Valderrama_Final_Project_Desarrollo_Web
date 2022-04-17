@@ -2,38 +2,69 @@
 @import "_commons";
 @import "_navbar";
 
-header section #pasos{
-
-	background-color: white;
-
-	h1{
-		@include texto ($grafito, 3rem);
+@media only screen and (min-width: 768px){
+		
+	header section section h1{
+		@include texto($grafito, 2.5rem, center);
 	}
 
-	section div div article h2{
+	header section section section div div article h2{
+		@include texto($grafito, 1.5rem, center);
 		background-color: whitesmoke;
-		color: $grafito;
-		font-size: 2rem;
+		margin-left: 2em;
+		margin-right: 2em;
 	}
 
-	p{
+	header section section section div div article p{
+	   @include texto($grafito, 1rem, center);
 		background-color: whitesmoke;
-		color: $grafito;
-		font-size: 1rem;
+		margin-left: 3em;
+		margin-right: 3em;
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+
+	main section div article form div legend{
+		@include texto($white, 1.5rem, center);
+		padding-right: 0.5rem;
+		padding-left:0.5rem
+	}
+
+}
+
+
+@media only screen and (min-width: 1200px){
+		
+	header section section h1{
+		@include texto($grafito, 3rem, center);
+	}
+
+	header section section section div div article h2{
+		@include texto($grafito, 2rem, center);
+		background-color: whitesmoke;
+		margin-left: 0em;
+		margin-right: 0em;
+		}
+
+	header section section section div div article p{
+	   @include texto($grafito, 1rem, center);
+		background-color: whitesmoke;
+		margin-left: 0em;
+		margin-right: 0em;
+		}
+
+	main section div article form div legend{
+		@include texto($white, 2rem, center);
+		padding-right: 0rem;
+		padding-left:0rem
 	}
 }
 
-main #form{
+.fondoCeleste{
 	background-color: map-get($map:$paleta, $key:'celeste');
 	color: map-get($map:$paleta, $key:'blanco');
-
-	h3{
-		font-size: 3rem;
-	}
-
-	div article form section div div p{
-		font-size: 1.5rem;
-	}
 
 	.btn-shop{
     	background-color:map-get($map:$paleta, $key:'amarillo');
@@ -50,7 +81,6 @@ main #form{
     	@extend .btn-shop;
     	border-radius: 40px;
     }
-
 
 }
 

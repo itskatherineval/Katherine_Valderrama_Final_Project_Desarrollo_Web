@@ -7809,87 +7809,168 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-#nav {
+.mainTitulo {
+  color: #302C27;
+  font-size: 3rem;
+  text-align: center; }
+
+.mainSubtitulo {
+  color: #302C27;
+  font-size: 2rem;
+  text-align: center; }
+
+.mainTituloCeleste {
+  color: #86A1A8;
+  font-size: 3rem;
+  text-align: center; }
+
+.mainTituloBlanco {
+  color: white;
+  font-size: 3rem;
+  text-align: center; }
+
+.mainSubtituloBlanco {
+  color: white;
+  font-size: 1.7rem;
+  text-align: center; }
+
+.mainTextoS {
+  font-size: 1rem; }
+
+.mainTextoM {
+  font-size: 1.5rem; }
+
+.seccionCeleste {
+  background-color: #86A1A8;
+  color: white; }
+
+.sliderProyecto {
+  margin-bottom: 2em;
+  margin-right: 3em;
+  margin-left: 3em; }
+
+.w-100 {
+  width: 100%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-40 {
+  width: 40%; }
+
+.botonera {
   background-color: white;
   color: #302C27;
   font-size: 1.2em;
   position: sticky; }
-  #nav div a img {
+  .botonera .w-40 {
     width: 40%; }
 
-header #intro {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
+header section div div article img {
+  width: 90%;
   text-align: center;
-  background-color: white; }
-  header #intro img {
-    width: 90%;
+  align-items: middle;
+  margin-right: 2em;
+  margin-left: 2em; }
+
+header section div div article h1, header section div div article .h1 {
+  padding-top: 0.4em;
+  padding-bottom: 0.4em; }
+
+header section div div article p {
+  color: #302C27;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 2rem;
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  margin-right: 1em;
+  margin-left: 1em; }
+
+main .seccionCeleste {
+  padding: 2rem; }
+  main .seccionCeleste h2, main .seccionCeleste .h2 {
+    color: white;
+    font-size: 2.6rem;
     text-align: center;
-    align-items: middle; }
-  header #intro h1, header #intro .h1 {
-    font-size: 3rem;
-    color: #302C27;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    text-align: center; }
-  header #intro p {
-    text-align: center;
-    line-height: 2rem;
-    font-size: 1.1em; }
-  header #intro .btn-shop, header #intro #formulario .btn-rounded, #formulario header #intro .btn-rounded {
-    background-color: #d57c0a;
-    margin-top: 1.5rem; }
-  header #intro .btn-shop:hover, header #intro #formulario .btn-rounded:hover, #formulario header #intro .btn-rounded:hover {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+
+main section section div div article h3, main section section div div article .h3 {
+  background-color: white;
+  color: #302C27;
+  font-size: 1.5rem;
+  text-align: center; }
+
+main section section div div article p {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center; }
+
+.form {
+  background-color: #86A1A8;
+  color: white; }
+
+.tituloForm {
+  color: white;
+  font-size: 2.8rem;
+  text-align: center;
+  padding-bottom: 0.4em;
+  padding-top: 0.4em; }
+
+.subtituloForm {
+  color: white;
+  font-size: 1.7rem;
+  text-align: center;
+  padding-bottom: 0.2em; }
+
+.imgEstilo {
+  margin-top: 3.5em;
+  border-radius: 1em;
+  margin-bottom: 1em; }
+
+@media only screen and (min-width: 768px) {
+  .imgEstilo {
+    margin-top: 1em; }
+  .subtituloForm {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; } }
+
+@media only screen and (min-width: 1200px) {
+  .imgEstilo {
+    margin-top: 3.5em; }
+  .subtituloForm {
+    padding-top: 0em;
+    padding-bottom: 0.2em; } }
+
+main section section div div article section form button.btn-shop {
+  background-color: #d57c0a; }
+  main section section div div article section form button.btn-shop:hover {
     background: linear-gradient(to top, rgba(213, 124, 10, 0.7), #d57c0a);
     color: grey;
     cursor: pointer;
     transition: all 1.5s; }
 
-#caracteristicas {
-  background-color: #86A1A8;
-  padding: 2rem; }
-  #caracteristicas h2, #caracteristicas .h2 {
-    text-align: center;
-    font-size: 2.6rem;
-    color: white;
-    padding: 1.5rem; }
-  #caracteristicas h3, #caracteristicas .h3 {
-    background-color: white;
-    text-align: center;
-    font-size: 1.5rem; }
-  #caracteristicas p {
-    color: white;
-    text-align: center;
-    font-size: 1.2rem; }
-
-main h2, main .h2 {
-  font-size: 2.5rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  text-align: center; }
-
-#formulario {
-  background-color: #86A1A8;
-  color: white; }
-  #formulario h3, #formulario .h3 {
-    color: white;
-    font-size: 2.6em;
-    padding-bottom: 2rem; }
-  #formulario div article iframe {
-    padding-top: 2rem;
-    width: 100%; }
-  #formulario .btn-shop, #formulario .btn-rounded {
-    background-color: #d57c0a; }
-    #formulario .btn-shop:hover, #formulario .btn-rounded:hover {
-      background: linear-gradient(to top, rgba(213, 124, 10, 0.7), #d57c0a);
-      color: grey;
-      cursor: pointer;
-      transition: all 1.5s; }
-  #formulario .btn-rounded {
-    border-radius: 40px; }
-
-#footer {
+.footer {
   background-color: whitesmoke;
   padding-top: 1.5em; }
+  .footer .footerLinks {
+    text-decoration: none;
+    color: black; }
+    .footer .footerLinks:hover {
+      text-decoration: underline;
+      color: #302C27; }
+
+@media only screen and (min-width: 768px) {
+  body main h2, body main .h2 {
+    color: #302C27;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem; } }
+
+@media only screen and (min-width: 1200px) {
+  body main h2, body main .h2 {
+    color: #302C27;
+    font-size: 2.5rem;
+    text-align: center; } }

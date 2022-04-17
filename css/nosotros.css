@@ -7809,82 +7809,172 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-#nav {
+.mainTitulo {
+  color: #302C27;
+  font-size: 3rem;
+  text-align: center; }
+
+.mainSubtitulo {
+  color: #302C27;
+  font-size: 2rem;
+  text-align: center; }
+
+.mainTituloCeleste {
+  color: #86A1A8;
+  font-size: 3rem;
+  text-align: center; }
+
+.mainTituloBlanco {
+  color: white;
+  font-size: 3rem;
+  text-align: center; }
+
+.mainSubtituloBlanco {
+  color: white;
+  font-size: 1.7rem;
+  text-align: center; }
+
+.mainTextoS {
+  font-size: 1rem; }
+
+.mainTextoM {
+  font-size: 1.5rem; }
+
+.seccionCeleste {
+  background-color: #86A1A8;
+  color: white; }
+
+.sliderProyecto {
+  margin-bottom: 2em;
+  margin-right: 3em;
+  margin-left: 3em; }
+
+.w-100 {
+  width: 100%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-40 {
+  width: 40%; }
+
+.botonera {
   background-color: white;
   color: #302C27;
   font-size: 1.2em;
   position: sticky; }
-  #nav div a img {
+  .botonera .w-40 {
     width: 40%; }
 
 header section h1, header section .h1 {
-  font-size: 3rem;
   color: #86A1A8;
-  padding-top: 0.5em; }
+  font-size: 3rem;
+  text-align: center; }
 
-#mision_vision {
+main .seccionCeleste {
   background-color: #86A1A8;
   color: white; }
-  #mision_vision h1, #mision_vision .h1 {
-    font-size: 2rem;
-    color: #302C27;
-    padding-top: 0.5em; }
-  #mision_vision p {
-    font-size: 1.1rem;
-    color: white;
-    padding-top: 0.5em;
-    line-height: 1.5em; }
-  #mision_vision article {
+  main .seccionCeleste div div article {
     padding-right: 1em;
     padding-left: 1em;
     padding: 1em; }
+  main .seccionCeleste h3, main .seccionCeleste .h3 {
+    color: white;
+    font-size: 2rem;
+    text-align: center; }
+  main .seccionCeleste p {
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.5em; }
 
-#pilares1 h2, #pilares1 .h2 {
-  font-size: 2.8rem;
+main section h2, main section .h2 {
   color: #86A1A8;
-  padding-top: 0.5em; }
+  font-size: 2.8rem;
+  text-align: center; }
 
-#pilares2 h3, #pilares2 .h3 {
-  font-size: 1.2rem;
-  color: #302C27; }
-
-#pilares2 p {
-  font-size: 1rem;
-  color: #302C27; }
-
-#pilares2 .fondo {
-  background-color: white;
+main section section div div article {
   color: #302C27;
-  padding: 2rem 2rem;
-  box-sizing: border-box; }
+  padding: 1em 1em; }
 
-#confianza {
+main .confianza {
   background-color: #302C27;
   color: white; }
-  #confianza h2, #confianza .h2 {
-    font-size: 2.5rem;
+  main .confianza h3, main .confianza .h3 {
     color: white;
+    font-size: 2.5rem;
+    text-align: center;
     padding-top: 0.5em; }
 
-#form {
+.form {
   background-color: #86A1A8;
   color: white; }
-  #form h3, #form .h3 {
-    color: white;
-    font-size: 2.6em;
-    padding-bottom: 1.5rem; }
-  #form div article img {
-    padding-top: 1.5rem; }
-  #form .btn-shop, #form .btn-rounded {
-    background-color: #d57c0a; }
-    #form .btn-shop:hover, #form .btn-rounded:hover {
-      background: linear-gradient(to top, rgba(213, 124, 10, 0.7), #d57c0a);
-      color: grey;
-      cursor: pointer;
-      transition: all 1.5s; }
-  #form .btn-rounded {
-    border-radius: 40px; }
 
-#footer {
+.tituloForm {
+  color: white;
+  font-size: 2.8rem;
+  text-align: center;
+  padding-bottom: 0.4em;
+  padding-top: 0.4em; }
+
+.subtituloForm {
+  color: white;
+  font-size: 1.7rem;
+  text-align: center;
+  padding-bottom: 0.2em; }
+
+.imgEstilo {
+  margin-top: 3.5em;
+  border-radius: 1em;
+  margin-bottom: 1em; }
+
+@media only screen and (min-width: 768px) {
+  .imgEstilo {
+    margin-top: 1em; }
+  .subtituloForm {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; } }
+
+@media only screen and (min-width: 1200px) {
+  .imgEstilo {
+    margin-top: 3.5em; }
+  .subtituloForm {
+    padding-top: 0em;
+    padding-bottom: 0.2em; } }
+
+main section div article section button.btn-shop {
+  background-color: #d57c0a; }
+  main section div article section button.btn-shop:hover {
+    background: linear-gradient(to top, rgba(213, 124, 10, 0.7), #d57c0a);
+    color: grey;
+    cursor: pointer;
+    transition: all 1.5s; }
+
+.footer {
   background-color: whitesmoke;
   padding-top: 1.5em; }
+  .footer .footerLinks {
+    text-decoration: none;
+    color: black; }
+    .footer .footerLinks:hover {
+      text-decoration: underline;
+      color: #302C27; }
+
+@media only screen and (min-width: 768px) {
+  body header section p {
+    padding-right: 1em;
+    padding-left: 1em; }
+  body main .seccionCeleste div div article p {
+    padding-right: 1em;
+    padding-left: 1em; }
+  body main section p {
+    padding-right: 1.5em;
+    padding-left: 1.5em; }
+  body main .confianza h3, body main .confianza .h3 {
+    font-size: 2rem;
+    padding-top: 1.5em; } }
+
+@media only screen and (min-width: 1200px) {
+  body main .confianza h3, body main .confianza .h3 {
+    font-size: 2.5rem;
+    padding-top: 1em; } }

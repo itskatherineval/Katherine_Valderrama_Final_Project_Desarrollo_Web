@@ -7809,55 +7809,160 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-#nav {
+.mainTitulo {
+  color: #302C27;
+  font-size: 3rem;
+  text-align: center; }
+
+.mainSubtitulo {
+  color: #302C27;
+  font-size: 2rem;
+  text-align: center; }
+
+.mainTituloCeleste {
+  color: #86A1A8;
+  font-size: 3rem;
+  text-align: center; }
+
+.mainTituloBlanco {
+  color: white;
+  font-size: 3rem;
+  text-align: center; }
+
+.mainSubtituloBlanco {
+  color: white;
+  font-size: 1.7rem;
+  text-align: center; }
+
+.mainTextoS {
+  font-size: 1rem; }
+
+.mainTextoM {
+  font-size: 1.5rem; }
+
+.seccionCeleste {
+  background-color: #86A1A8;
+  color: white; }
+
+.sliderProyecto {
+  margin-bottom: 2em;
+  margin-right: 3em;
+  margin-left: 3em; }
+
+.w-100 {
+  width: 100%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-40 {
+  width: 40%; }
+
+.botonera {
   background-color: white;
   color: #302C27;
   font-size: 1.2em;
   position: sticky; }
-  #nav div a img {
+  .botonera .w-40 {
     width: 40%; }
 
-#productos div h1, #productos div .h1 {
-  font-size: 2.6em;
+.carousel-caption {
+  text-align: center; }
+  .carousel-caption p {
+    font-size: 2rem; }
+
+main section div h1, main section div .h1 {
   color: #302C27;
-  padding-top: 0.5em; }
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 0.5em; }
 
-#productos div div article h2, #productos div div article .h2 {
-  font-size: 1.9em;
+main section div div article h2, main section div div article .h2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.2em; }
+
+main section div div article p {
   color: #302C27;
-  padding-top: 0.5em; }
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1rem;
+  padding-bottom: 0.2em; }
 
-#productos div div article p {
-  line-height: 1rem; }
+main section div div article .scale1:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: transform 3s; }
 
-#productos .btn-shop, #productos #form .btn-rounded, #form #productos .btn-rounded {
+main section div div article a.btn-shop {
   background-color: #d57c0a; }
-  #productos .btn-shop:hover, #productos #form .btn-rounded:hover, #form #productos .btn-rounded:hover {
+  main section div div article a.btn-shop:hover {
     background: linear-gradient(to top, rgba(213, 124, 10, 0.7), #d57c0a);
     color: grey;
     cursor: pointer;
     transition: all 1.5s; }
 
-#form {
+.form {
   background-color: #86A1A8;
   color: white; }
-  #form h3, #form .h3 {
-    color: white;
-    font-size: 2.6em;
-    padding-top: 0.4em;
-    padding-bottom: 0.8em; }
-  #form div article img {
-    padding-top: 0.8em; }
-  #form .btn-shop, #form .btn-rounded {
-    background-color: #d57c0a; }
-    #form .btn-shop:hover, #form .btn-rounded:hover {
-      background: linear-gradient(to top, rgba(213, 124, 10, 0.7), #d57c0a);
-      color: grey;
-      cursor: pointer;
-      transition: all 1.5s; }
-  #form .btn-rounded {
-    border-radius: 40px; }
 
-#footer {
+.tituloForm {
+  color: white;
+  font-size: 2.8rem;
+  text-align: center;
+  padding-bottom: 0.4em;
+  padding-top: 0.4em; }
+
+.subtituloForm {
+  color: white;
+  font-size: 1.7rem;
+  text-align: center;
+  padding-bottom: 0.2em; }
+
+.imgEstilo {
+  margin-top: 3.5em;
+  border-radius: 1em;
+  margin-bottom: 1em; }
+
+@media only screen and (min-width: 768px) {
+  .imgEstilo {
+    margin-top: 1em; }
+  .subtituloForm {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; } }
+
+@media only screen and (min-width: 1200px) {
+  .imgEstilo {
+    margin-top: 3.5em; }
+  .subtituloForm {
+    padding-top: 0em;
+    padding-bottom: 0.2em; } }
+
+main section div article form section button.btn-shop {
+  background-color: #d57c0a; }
+  main section div article form section button.btn-shop:hover {
+    background: linear-gradient(to top, rgba(213, 124, 10, 0.7), #d57c0a);
+    color: grey;
+    cursor: pointer;
+    transition: all 1.5s; }
+
+.footer {
   background-color: whitesmoke;
   padding-top: 1.5em; }
+  .footer .footerLinks {
+    text-decoration: none;
+    color: black; }
+    .footer .footerLinks:hover {
+      text-decoration: underline;
+      color: #302C27; }
+
+@media only screen and (min-width: 768px) {
+  body header div div div div p {
+    font-size: 1rem; }
+  main section div h1, main section div .h1 {
+    font-size: 2.5rem; } }
+
+@media only screen and (min-width: 1200px) {
+  body header div div div div p {
+    font-size: 2rem; }
+  main section div h1, main section div .h1 {
+    font-size: 3rem; } }

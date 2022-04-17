@@ -7809,46 +7809,138 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-#nav {
+.mainTitulo {
+  color: #302C27;
+  font-size: 3rem;
+  text-align: center; }
+
+.mainSubtitulo {
+  color: #302C27;
+  font-size: 2rem;
+  text-align: center; }
+
+.mainTituloCeleste {
+  color: #86A1A8;
+  font-size: 3rem;
+  text-align: center; }
+
+.mainTituloBlanco {
+  color: white;
+  font-size: 3rem;
+  text-align: center; }
+
+.mainSubtituloBlanco {
+  color: white;
+  font-size: 1.7rem;
+  text-align: center; }
+
+.mainTextoS {
+  font-size: 1rem; }
+
+.mainTextoM {
+  font-size: 1.5rem; }
+
+.seccionCeleste {
+  background-color: #86A1A8;
+  color: white; }
+
+.sliderProyecto {
+  margin-bottom: 2em;
+  margin-right: 3em;
+  margin-left: 3em; }
+
+.w-100 {
+  width: 100%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-40 {
+  width: 40%; }
+
+.botonera {
   background-color: white;
   color: #302C27;
   font-size: 1.2em;
   position: sticky; }
-  #nav div a img {
+  .botonera .w-40 {
     width: 40%; }
 
-header section #pasos {
-  background-color: white; }
-  header section #pasos h1, header section #pasos .h1 {
-    font-size: #302C27;
-    color: 3rem;
-    padding-top: 0.5em; }
-  header section #pasos section div div article h2, header section #pasos section div div article .h2 {
-    background-color: whitesmoke;
+@media only screen and (min-width: 768px) {
+  header section section h1, header section section .h1 {
     color: #302C27;
-    font-size: 2rem; }
-  header section #pasos p {
-    background-color: whitesmoke;
+    font-size: 2.5rem;
+    text-align: center; }
+  header section section section div div article h2, header section section section div div article .h2 {
     color: #302C27;
-    font-size: 1rem; }
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 2em;
+    margin-right: 2em; }
+  header section section section div div article p {
+    color: #302C27;
+    font-size: 1rem;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; }
+  main section div article form div legend {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem; } }
 
-main #form {
+@media only screen and (min-width: 1200px) {
+  header section section h1, header section section .h1 {
+    color: #302C27;
+    font-size: 3rem;
+    text-align: center; }
+  header section section section div div article h2, header section section section div div article .h2 {
+    color: #302C27;
+    font-size: 2rem;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 0em;
+    margin-right: 0em; }
+  header section section section div div article p {
+    color: #302C27;
+    font-size: 1rem;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 0em;
+    margin-right: 0em; }
+  main section div article form div legend {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-right: 0rem;
+    padding-left: 0rem; } }
+
+.fondoCeleste {
   background-color: #86A1A8;
   color: white; }
-  main #form h3, main #form .h3 {
-    font-size: 3rem; }
-  main #form div article form section div div p {
-    font-size: 1.5rem; }
-  main #form .btn-shop, main #form .btn-rounded {
+  .fondoCeleste .btn-shop, .fondoCeleste .btn-rounded {
     background-color: #d57c0a; }
-    main #form .btn-shop:hover, main #form .btn-rounded:hover {
+    .fondoCeleste .btn-shop:hover, .fondoCeleste .btn-rounded:hover {
       background: linear-gradient(to top, rgba(213, 124, 10, 0.7), #d57c0a);
       color: grey;
       cursor: pointer;
       transition: all 1.5s; }
-  main #form .btn-rounded {
+  .fondoCeleste .btn-rounded {
     border-radius: 40px; }
 
-#footer {
+.footer {
   background-color: whitesmoke;
   padding-top: 1.5em; }
+  .footer .footerLinks {
+    text-decoration: none;
+    color: black; }
+    .footer .footerLinks:hover {
+      text-decoration: underline;
+      color: #302C27; }
