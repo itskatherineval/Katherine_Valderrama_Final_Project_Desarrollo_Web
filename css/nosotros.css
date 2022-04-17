@@ -7936,7 +7936,7 @@ main .confianza {
     padding-bottom: 0em;
     padding-top: 0.4em; }
   .imgEstilo {
-    margin-top: 2em; } }
+    margin-top: 1.5em; } }
 
 @media only screen and (min-width: 768px) {
   .tituloForm {
@@ -7985,7 +7985,9 @@ main section div article section button.btn-shop {
     padding-left: 0.7em;
     padding-right: 0.7em; }
   body main .confianza h3, body main .confianza .h3 {
-    font-size: 1.9rem; } }
+    font-size: 1.9rem;
+    padding-left: 1em;
+    padding-right: 1em; } }
 
 @media only screen and (min-width: 768px) {
   body header section h1, body header section .h1 {
