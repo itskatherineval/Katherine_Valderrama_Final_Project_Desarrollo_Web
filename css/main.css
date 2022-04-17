@@ -7966,3 +7966,22 @@ main section div article form section button.btn-shop {
     font-size: 2rem; }
   main section div h1, main section div .h1 {
     font-size: 3rem; } }
+
+.mainTituloCeleste {
+  color: #86A1A8;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.mainSubtituloGrafito {
+  font-size: 1.8rem;
+  color: white;
+  background-color: #86A1A8;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-left: 0.5em; }
+
+.mainTextGrafito {
+  font-size: 1rem;
+  padding-left: 0.3em; }
